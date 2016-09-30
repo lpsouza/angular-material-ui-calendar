@@ -7,8 +7,9 @@ Calendar based on [Angular Material](https://material.angularjs.org/) and [UI Ca
 1. `git clone https://github.com/lpsouza/angular-material-ui-calendar.git`
 2. `npm install -g http-server`
 3. `cd angular-material-ui-calendar`
-4. 
+4. `http-server`
+5. Open your prefered browser and navigate to *http://localhost:8080/sample/*
 
 # Todo
 
-* 
+* Improve documentation
