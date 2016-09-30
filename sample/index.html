@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Angular-Material-UI-Calendar</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="../bower_components/fullcalendar/dist/fullcalendar.css" />
+    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css">
+
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../bower_components/moment/min/moment.min.js"></script>
+    <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-aria/angular-aria.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-material/angular-material.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-ui-calendar/src/calendar.js"></script>
+    <script type="text/javascript" src="../bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="../bower_components/fullcalendar/dist/gcal.js"></script>
+
+    <script type="text/javascript" src="../dist/angular-material-ui-calendar.js"></script>
+
+
+</head>
+
+<body>
+
+    <md-tabs md-dynamic-height md-border-bottom>
+        <md-tab label="Event calendar">
+            <md-content ng-controller="ctrlEvents" layout layout-padding>
+                <md-ui-calendar calendar="cal1" events="events" change-view="view" config="configCalendar"></md-ui-calendar>
+                <div>
+                    <md-button class="md-primary md-raised" ng-click="changeView('month')">Month</md-button>
+                    <md-button class="md-primary md-raised" ng-click="changeView('agendaDay')">Day</md-button>
+                    <md-button class="md-primary md-raised" ng-click="changeView('basicDay')">Day (Basic)</md-button>
+                </div>
+            </md-content>
+        </md-tab>
+        <md-tab label="Datepicker calendar">
+            <md-content ng-controller="ctrlDates" layout layout-padding>
+                <md-ui-calendar flex calendar="cal2" dates="dates" disabled-dates="disabledDates" config="configCalendar"></md-ui-calendar>
+                <div flex="25">
+                    <div>Selected dates</div>
+                    <pre>{{dates | json}}</pre>
+                    <div>Disabled dates</div>
+                    <pre>{{disabledDates | json}}</pre>
+                </div>
+            </md-content>
+        </md-tab>
+    </md-tabs>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

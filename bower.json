@@ -1,0 +1,24 @@
+{
+  "name": "angular-material-ui-calendar",
+  "description": "TODO",
+  "main": "index.js",
+  "authors": [
+    "Luiz Souza"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "TODO"
+  ],
+  "homepage": "TODO",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-calendar": "^1.0.2",
+    "angular-material": "^1.1.1"
+  }
+}
