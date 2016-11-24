@@ -1,0 +1,28 @@
+{
+  "name": "angular-material-ui-calendar",
+  "version": "1.0.0",
+  "description": "Calendar based on [Angular Material](https://material.angularjs.org/) and [UI Calendar](http://angular-ui.github.io/ui-calendar/) ([AngularUI](http://angular-ui.github.io/ui-calendar/)).",
+  "main": "dist/angular-material-ui-calendar.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GVDASA/angular-material-ui-calendar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GVDASA/angular-material-ui-calendar/issues"
+  },
+  "homepage": "https://github.com/GVDASA/angular-material-ui-calendar#readme",
+  "jspm": {
+    "dependencies": {
+      "angular-ui-calendar": "^1.0.2",
+      "angular-material": "^1.1.1"
+    }
+  }
+}
