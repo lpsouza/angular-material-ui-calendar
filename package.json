@@ -21,8 +21,7 @@
   "homepage": "https://github.com/GVDASA/angular-material-ui-calendar#readme",
   "jspm": {
     "dependencies": {
-      "npm:angular-ui-calendar": "^1.0.2",
-      "angular-material": "^1.1.1"
+      "angular-ui-calendar": "npm:angular-ui-calendar"
     }
   }
 }
