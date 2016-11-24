@@ -20,5 +20,8 @@
   "dependencies": {
     "angular-ui-calendar": "^1.0.2",
     "angular-material": "^1.1.1"
+  },
+  "resolutions": {
+    "angular": "1.5.8"
   }
 }
