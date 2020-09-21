@@ -10,7 +10,3 @@ Calendar based on [Angular Material](https://material.angularjs.org/) and [UI Ca
 4. `bower install`
 5. `http-server`
 6. Open your prefered browser and navigate to *http://localhost:8080/sample/*
-
-# Todo
-
-* Improve documentation
