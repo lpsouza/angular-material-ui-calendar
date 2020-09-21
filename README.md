@@ -5,10 +5,11 @@ Calendar based on [Angular Material](https://material.angularjs.org/) and [UI Ca
 ## Dev
 
 1. `git clone https://github.com/lpsouza/angular-material-ui-calendar.git`
-2. `npm install -g http-server`
+2. `npm install -g http-server bower`
 3. `cd angular-material-ui-calendar`
-4. `http-server`
-5. Open your prefered browser and navigate to *http://localhost:8080/sample/*
+4. `bower install`
+5. `http-server`
+6. Open your prefered browser and navigate to *http://localhost:8080/sample/*
 
 # Todo
 
