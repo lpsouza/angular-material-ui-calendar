@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GVDASA/angular-material-ui-calendar.git"
+    "url": "git+https://github.com/lpsouza/angular-material-ui-calendar.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Luiz Souza <lpsouza@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GVDASA/angular-material-ui-calendar/issues"
+    "url": "https://github.com/lpsouza/angular-material-ui-calendar/issues"
   },
-  "homepage": "https://github.com/GVDASA/angular-material-ui-calendar#readme",
+  "homepage": "https://github.com/lpsouza/angular-material-ui-calendar#readme",
   "jspm": {
     "dependencies": {
       "angular-ui-calendar": "npm:angular-ui-calendar"
